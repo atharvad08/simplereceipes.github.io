@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Simple Recipes
+    </title>
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        function fetchdata() {
+            str_uname = document.getElementById("username").value;
+
+            alert(str_uname + ",your response is being submitted.Please click ok");
+        }
+
+        $(document).ready(function () {
+            $("#number1").click(function () {
+                $("#burger").slideToggle("slow");
+            });
+        });
+
+    </script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+    <!--nav class-->
+    <nav class="navbar  navbar-expand-lg navbar-dark  bg-dark">
+        <div class="container-fluid">
+
+            <a style=" color:red; text-align: center;" class="navbar-brand abs"><img
+                    src="https://www.pngitem.com/pimgs/m/87-877725_recipes-png-transparent-png.png" alt="Recipes image"
+                    width="60" height="30" class="d-inline-block align-text-center ">Simple Recipes<img
+                    src="https://www.pngitem.com/pimgs/m/87-877725_recipes-png-transparent-png.png" alt="Recipes image"
+                    width="60" height="30" class="d-inline-block align-text-center "></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav w-100 ">
+                    <li class="nav-item dropdown">
+                        <a style="color: rgb(133, 143, 189); font-size: large;" class="nav-link dropdown-toggle"
+                            href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Quick Access
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#number1">Veg Burger Recipe</a></li>
+                            <li><a class="dropdown-item" href="#number2">Pizza Recipe</a></li>
+                            <li><a class="dropdown-item" href="#number3">White sauce pasta Recipe</a></li>
+                            <li><a class="dropdown-item" href="#number4">Wraps Recipe</a></li>
+                            <li><a class="dropdown-item" href="#number5">Brownie Recipe</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#number6">Calorie Count Table</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </div>
+
+        </div>
+    </nav>
+    <!--nav class ends-->
+
+    <p class="c1" id="p1">
+    <h3>Not everybody loves cooking, but once in a blue moon,<br> we always get the urge to jump into the kitchen and
+        make something delicious.<br>
+        For making some of the simplest food items for starters, check out the recipes on the website.
+    </h3>
+    </p>
+    <h2 style="color: rgb(92, 92, 146); margin-left: 2cm; font-family: 'Times New Roman', Times, serif; ">Here are 5
+        easy to make recipes at home.</h2><br>
+    <h3>Click on the food item whose recipe you want to know.</h3>
+    <p>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col" style="align-content: center; text-align: justify;">
+                <a href="https://www.vegrecipesofindia.com/veg-burger-recipe-veggie-burger/" target="blank">
+                    <h4 id="number1">BURGER</h4>
+                </a>
+                <img src="https://media.gettyimages.com/photos/burger-picture-id182744943?k=6&m=182744943&s=612x612&w=0&h=UAQK6CBVWKsMTDOBQCF_-BboY4S3ywmaXDzzKgpVYDw="
+                    alt="Burger image" id="burger" class="img-fluid">
+            </div>
+            <div class="col" style="text-align: center;">
+                <a href="https://www.indianhealthyrecipes.com/pizza-recipe-make-pizza/" target="blank">
+                    <h4 id="number2">PIZZA</h4>
+                </a> <br>
+                <img src="https://im.whatshot.in/img/2020/Apr/header2-1586254167.jpg" alt="Pizza" class="img-fluid">
+            </div>
+        </div>
+        <!--div row1 ends-->
+        <br><br>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <!-- div col 1 begins-->
+                <a href="https://www.vegrecipesofindia.com/white-sauce-pasta-recipe/" target="blank">
+                    <h4 id="number3">WHTIE SAUCE PASTA</h4>
+                </a>
+                <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2018/12/white-sauce-pasta-recipe-1.jpg"
+                    alt="white sauce pasta" class="img-fluid">
+            </div><!-- div col 1 ends-->
+
+            <div class="col-sm-4">
+                <!-- div col 2 begins-->
+                <a href="https://www.indianhealthyrecipes.com/veg-wraps-recipe-make-vegetable-wraps/" target="blank">
+                    <h4 id="number4">WRAPS</h4>
+                </a>
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-lemon-chicken-wraps-still002-1536963118.jpg"
+                    alt="Wraps" class="img-fluid">
+            </div><!-- div col 2 ends-->
+
+            <div class="col-sm-4">
+                <!-- div col 3 begins-->
+                <a href="https://www.loveandlemons.com/brownies-recipe/" target="blank">
+                    <h4 id="number5"> BROWNIES</h4>
+                </a>
+                <img src="https://p.kindpng.com/picc/s/174-1740911_walnut-brownie-title-walnut-brownie-choco-lava-cake.png"
+                    alt="Brownies" class="img-fluid">
+            </div><!-- div col 3 ends-->
+
+        </div><!-- div row2 ends-->
+
+
+    </div>
+    <!--container ends-->
+
+    <div class="container">
+        <!-- div row1 begins-->
+        <div class="row">
+            <div class="col-sm-6">
+                <!-- div col 1 begins-->
+                <table class="table caption-top table-bordered border-danger table-striped table-hover">
+                    <caption>
+                        <h3 id="number6">Calorie Count</h3>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>Food item</th>
+                            <th>Calories per 100g</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Burger</td>
+                        <td>295</td>
+                    </tr>
+
+                    <tr>
+                        <td>Pizza</td>
+                        <td>266</td>
+                    </tr>
+
+                    <tr>
+                        <td>White sauce pasta</td>
+                        <td>300</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wraps</td>
+                        <td>310</td>
+                    </tr>
+
+                    <tr>
+                        <td>Brownies</td>
+                        <td>466</td>
+                    </tr>
+                </table>
+            </div><!-- div col 1 ends-->
+        </div>
+
+
+
+
+        <br><br>
+
+        <form action="ack.html" method="get">
+            <fieldset>
+
+                <legend>
+                    <h2>Feedback Form</h2>
+                </legend>
+
+                <div class="mydiv">
+                    <!-- Name input  -->
+                    <label for="fullName">
+                        Full Name
+                        <span style="color: red;">*</span>
+                    </label>
+                    <br>
+                    <input type="text" id="username" name="fullName" placeholder="Name" required><br><br>
+
+                    <!-- Email input  -->
+                    <label for="email">
+                        Email
+                        <span style="color: red;">*</span>
+                    </label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Enter email address" required><br><br>
+
+                    <!-- Phone number input  -->
+                    <label for="phoneNumber">
+                        Phone Number
+                        <span style="color: red;">*</span>
+                    </label>
+                    <br>
+                    <input type="number" id="phoneNumber" name="phoneNumber" placeholder="Enter 10 digit number"
+                        required><br><br>
+                </div>
+
+                <div class="mydiv2">
+                    <label for="suggestionsAndExperiences">Please write your suggestions for improving the
+                        site:</label>
+                    <br>
+                    <textarea style="width:100%;" cols="30" rows="4" id="suggestionsAndExperiences"
+                        name="suggestionsAndExperiences" placeholder="Write down suggestions"></textarea>
+
+                    <br>
+
+                    <label for="preference">Would you like to be a part of this community?</label>
+                    <br>
+                    <select name="preference">
+                        <option value="opt in">Opt in</option>
+                        <option value="opt out">Opt out</option>
+                        <option value="not to say">Prefer not to say</option>
+                    </select>
+
+                </div>
+
+                <br><br>
+                <button class="btn btn-outline-success" type="submit">Submit</button> &nbsp;
+                <button class="btn btn-outline-danger" type="reset">Reset</button>
+
+
+
+            </fieldset>
+        </form>
+
+
+
+
+
+        <!--<button onclick="fetchdata();" class="submitbutton">
+                    <img src="https://image.flaticon.com/icons/png/512/59/59408.png" alt="verify data" width="10" height="10">
+                    Verify </button>-->
+
+
+
+
+
+        <br><br>
+        <span>
+            <a href="#"> Back to top</a>
+        </span>
+
+        </ol>
+        </p>
+        <p class="h6" style="color: rgb(218, 32, 177); text-align: right;"> &copy; 2021 Simpler Recipes </p>
+
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>

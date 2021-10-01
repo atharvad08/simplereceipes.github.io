@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(202, 214, 214);
+}
+
+
+.mydiv {
+    width: 50%;
+
+}
+
+
+.mydiv2 {
+    width: 50%;
+}
+
+
+fieldset {
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 22cm;
+    margin-left: 0cm;
+    background-color: rgb(158, 199, 199);
+}
+
+h3 {
+    color: rgb(28, 7, 48);
+    text-decoration: double;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2cm;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+img {
+    border-radius: 60px;
+    border: rgb(14, 65, 136);
+    border-style: double;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 400px;
+    
+
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand.abs {
+        position: absolute;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+}
